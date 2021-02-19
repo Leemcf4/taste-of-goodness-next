@@ -24,7 +24,6 @@ export default function Home() {
         <div className="logo-container">
           <Image
             src="/images/tog_logo_full.png"
-            srcSet={}
             width={441}
             height={220}
             alt="logo"
