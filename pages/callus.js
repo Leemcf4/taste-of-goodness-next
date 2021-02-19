@@ -11,7 +11,7 @@ function callus() {
       <Head>
         <title>Taste of Goodness</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description " content={description} />
+        <meta name="Description " content={description} />
         <meta property="og:description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="twitter:description" content={description} />
