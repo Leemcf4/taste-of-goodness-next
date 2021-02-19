@@ -1,65 +1,63 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head"
+import Footer from "../components/Footer"
+
+import Image from "next/image"
+import Awards from "../components/Awards"
+
+const title = "Taste of Goodness"
+const description = "Taste of Goodness"
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className="home">
+      <div className="home-container">
+        <Head>
+          <title>Taste of Goodness</title>
+          <link rel="icon" href="/favicon.ico" />
+          <meta name="description " content={description} />
+          <meta property="og:description" content={description} />
+          <meta property="og:title" content={title} />
+          <meta property="twitter:description" content={description} />
+          <meta property="twitter:title" content={title} />
+        </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div className="logo-container">
+          <Image
+            src="/images/tog_logo_full.png"
+            srcSet={}
+            width={441}
+            height={220}
+            alt="logo"
+            priority
+            quality={100}
+          ></Image>
+          {/* <img src="\images\tog_logo_full.png" alt="" /> */}
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+        <div className="cloud-container-left">
+          <img src="\images\hello_cloud1.png" alt="" />
+        </div>
+
+        <div className="cloud-container-right">
+          <img src="\images\hello_cloud2.png" alt="" />
+        </div>
+        <div className="home-awards-container">
+          <Awards />
+        </div>
+        <div className="basket-container">
+          <Image
+            src="/images/hello_basket.png"
+            width={542}
+            height={460}
+            alt="basket"
+          ></Image>
+          {/* <img src="\images\hello_basket.png" alt="" /> */}
+        </div>
+        <Footer
+          footerImageFront="/images/fields_front_1.png"
+          footerImageBack="/images/fields_back_1.png"
+        />
+      </div>
     </div>
   )
 }
