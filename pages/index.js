@@ -34,21 +34,51 @@ export default function Home() {
         </div>
 
         <div className="cloud-container-left">
-          <img src="\images\hello_cloud1.png" alt="" />
+          <div className="home-left-cloud-container">
+            <Image
+              className="home-cloud-left"
+              src="/images/hello_cloud11.png"
+              height={498}
+              width={278}
+              quality={100}
+              objectFit="contain"
+              alt="cloud"
+            ></Image>
+            <p className="home-cloud-left-text">
+              Welcome to taste of goodness!! <br></br>Never before has sauce
+              tasted so <br></br>
+              Let us take you on a saucey journey and <br></br>
+              tell you a little more about ourselves
+            </p>
+          </div>
         </div>
 
         <div className="cloud-container-right">
-          <img src="\images\hello_cloud2.png" alt="" />
+          {/* <img src="\images\hello_cloud22.png" alt="cloud" /> */}
+          <div className="home-right-cloud-container">
+            <Image
+              className="home-cloud-right"
+              src="/images/hello_cloud22.png"
+              height={398}
+              width={278}
+              quality={100}
+              objectFit="contain"
+              alt="cloud"
+            ></Image>
+            <p className="home-cloud-right-text">
+              Produced In<br></br>
+              Ireland <br></br>
+            </p>
+          </div>
         </div>
-        <div className="home-awards-container">
-          <Awards />
-        </div>
+        <div className="home-awards-container">{/* <Awards /> */}</div>
         <div className="basket-container">
           <Image
             src="/images/hello_basket.png"
             width={542}
             height={460}
             alt="basket"
+            objectFit="contain"
           ></Image>
           {/* <img src="\images\hello_basket.png" alt="" /> */}
         </div>

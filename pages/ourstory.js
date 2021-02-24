@@ -7,7 +7,7 @@ const description = "Taste of Goodness"
 
 function ourstory() {
   return (
-    <div>
+    <div className="story">
       <Head>
         <title>Taste of Goodness</title>
         <link rel="icon" href="/favicon.ico" />
