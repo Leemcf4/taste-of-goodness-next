@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         left: 0,
         width: "100%",
         height: "100%",
-        zIndex: "-100",
+        zIndex: "-999",
         backgroundImage:
           "-webkit-gradient(linear, left top, left bottom, color-stop(0, #90C1FC), color-stop(0.33, #A3D5FE), color-stop(0.66, #B0DEFD), color-stop(1, #C1E8FE))",
         backgroundImage:

@@ -162,6 +162,11 @@ code {
   bottom: 63px;
   right: 23px;
   z-index: 102;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
 }
 
 .cloud-container-right {
@@ -192,6 +197,56 @@ code {
   left: 100px;
   z-index: 102;
   text-align: center;
+  animation: fadeIn ease 1ms;
+  -webkit-animation: fadeIn ease 1ms;
+  -moz-animation: fadeIn ease 1ms;
+  -o-animation: fadeIn ease 1ms;
+  -ms-animation: fadeIn ease 1ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .cloud-container-left {
   -webkit-animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
@@ -383,6 +438,13 @@ code {
   color: white;
   text-align: center;
 }
+
+@media only screen and (max-width: 1248px) {
+  .footer-container {
+    display: none;
+  }
+}
+
 .hills-front {
   position: relative;
   z-index: -101;

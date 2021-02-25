@@ -48,6 +48,7 @@ function whatsgood() {
       <Footer
         footerImageFront="/images/fields_front_3.png"
         footerImageBack="/images/fields_back_3.png"
+        bottom={"-5px"}
       />
     </div>
   )

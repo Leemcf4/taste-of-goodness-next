@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 import React from "react"
 import Footer from "../components/Footer"
 
@@ -20,17 +21,33 @@ function ourstory() {
 
       <div className="story-container">
         <div className="story-title">
-          <img src="/images/story_title.png" alt="" />
+          <Image
+            src="/images/story_title.png"
+            width={237}
+            height={74}
+            alt="storytitle"
+          ></Image>
         </div>
         <div className="story-book">
-          <img src="/images/story_book.png" alt="" />
+          <Image
+            src="/images/story_book.png"
+            height={448}
+            width={659}
+            alt="story"
+          ></Image>
         </div>
         <div className="story-cloud-container-right">
-          <img src="/images/story_cloud.png" alt="" />
+          <Image
+            src="/images/story_cloud.png"
+            width={261}
+            height={467}
+            alt="cloud"
+          ></Image>
         </div>
         <Footer
           footerImageFront="/images/fields_front_2.png"
           footerImageBack="/images/fields_back_2.png"
+          bottom={"50px"}
         />
       </div>
     </div>

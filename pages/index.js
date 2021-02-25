@@ -30,7 +30,6 @@ export default function Home() {
             priority
             quality={100}
           ></Image>
-          {/* <img src="\images\tog_logo_full.png" alt="" /> */}
         </div>
 
         <div className="cloud-container-left">
@@ -54,7 +53,6 @@ export default function Home() {
         </div>
 
         <div className="cloud-container-right">
-          {/* <img src="\images\hello_cloud22.png" alt="cloud" /> */}
           <div className="home-right-cloud-container">
             <Image
               className="home-cloud-right"
@@ -71,7 +69,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="home-awards-container">{/* <Awards /> */}</div>
         <div className="basket-container">
           <Image
             src="/images/hello_basket.png"
@@ -80,7 +77,6 @@ export default function Home() {
             alt="basket"
             objectFit="contain"
           ></Image>
-          {/* <img src="\images\hello_basket.png" alt="" /> */}
         </div>
         <Footer
           footerImageFront="/images/fields_front_1.png"
