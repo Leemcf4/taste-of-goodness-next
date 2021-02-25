@@ -1,10 +1,10 @@
 import Head from "next/head"
 import React, { useState } from "react"
 import Footer from "../components/Footer"
-import ProductRow from "../components/ProductRow"
-import Swiper from "react-id-swiper"
 import { products } from "../data/products"
 import ScrollContainer from "react-indiana-drag-scroll"
+import Image from "next/image"
+import ProductDetails from "../components/ProductDetails"
 
 const title = "Taste of Goodness"
 const description = "Taste of Goodness"
@@ -17,18 +17,6 @@ function ourfamily() {
     console.log(productShow)
   }
 
-  const params = {
-    slidesPerView: 3,
-    spaceBetween: 0,
-    slidesPerGroup: 3,
-    centeredSlides: false,
-    freeMode: true,
-    loop: false,
-    loopFillGroupWithBlank: false,
-    pagination: {
-      clickable: true,
-    },
-  }
   return (
     <div>
       <Head>
@@ -42,128 +30,91 @@ function ourfamily() {
       </Head>
       <div className="family-container">
         {productShow === 1 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/piri_bottle.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/piri_bottle.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/piri_bottle.png"}
+            cloudImage={"/images/piri_bottle.png"}
+          />
         ) : productShow === 2 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/piri_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/piri_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/piri_textboard_full.png"}
+            cloudImage={"/images/piri_cloud.png"}
+          />
         ) : productShow === 3 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/garlic_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/garlic_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/garlic_textboard_full.png"}
+            cloudImage={"/images/garlic_cloud.png"}
+          />
         ) : productShow === 4 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/southwest_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/southwest_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/southwest_textboard_full.png"}
+            cloudImage={"/images/southwest_cloud.png"}
+          />
         ) : productShow === 5 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/sweet_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/sweet_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/sweet_textboard_full.png"}
+            cloudImage={"/images/sweet_cloud.png"}
+          />
         ) : productShow === 6 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/bbq_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/bbq_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/bbq_textboard_full.png"}
+            cloudImage={"/images/bbq_cloud.png"}
+          />
         ) : productShow === 7 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/taco_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/taco_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/taco_textboard_full.png"}
+            cloudImage={"/images/taco_cloud.png"}
+          />
         ) : productShow === 8 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/pepper_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/pepper_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/pepper_textboard_full.png"}
+            cloudImage={"/images/pepper_cloud.png"}
+          />
         ) : productShow === 9 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="/images/garlic_textboard_full.png" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="/images/garlic_cloud.png" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/garlic_textboard_full.png"}
+            cloudImage={"/images/garlic_cloud.png"}
+          />
         ) : productShow === 10 ? (
-          <div className="product-details-container">
-            <div className="product-details">
-              <img src="" alt="" />
-            </div>
-            <div className="product-details-cloud">
-              <img src="" alt="" />
-            </div>
-          </div>
+          <ProductDetails
+            detailsImage={"/images/garlic_textboard_full.png"}
+            cloudImage={"/images/garlic_cloud.png"}
+          />
         ) : (
           <>
             <div className="family-top">
               <div className="family-title">
-                <img src="/images/family_title.png" alt="" />
+                <Image
+                  src="/images/family_title.png"
+                  alt="familyTitle"
+                  height={87}
+                  width={238}
+                ></Image>
               </div>
               <div className="family-board">
-                <img src="/images/family_textboard.png" alt="" />
+                <Image
+                  src="/images/family_textboard.png"
+                  alt="family"
+                  height={349}
+                  width={543}
+                ></Image>
               </div>
             </div>
           </>
         )}
 
         <div className="family-bottom">
-          <div className="product-row">
-            {products.map((product) => (
-              <ProductRow
-                key={product._id}
-                product={product}
-                clickHandler={clickHandler}
-              />
-            ))}
-          </div>
-
           <ScrollContainer vertical={false} className="mobile-product-row">
-            {/* <Swiper {...params}> */}
             {products.map((product) => (
               <div key={product._id} onClick={() => clickHandler(product._id)}>
-                {" "}
-                <img src={product.productFamilyImage} alt="" />{" "}
+                <Image
+                  src={product.productFamilyImage}
+                  height={288}
+                  width={134}
+                  alt="bottle"
+                  quality={100}
+                ></Image>
               </div>
             ))}
-            {/* </Swiper> */}
           </ScrollContainer>
         </div>
         <Footer

@@ -1,6 +1,7 @@
 import { Burger } from "../components/Burger"
 import Clouds from "../components/Cloud"
 import Header from "../components/Header"
+import Sun from "../components/Sun"
 import "../styles/globals.css"
 
 function MyApp({ Component, pageProps }) {
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
     >
       <Header />
       <Burger />
+      <Sun />
       <Clouds />
       <Component {...pageProps} />
     </div>

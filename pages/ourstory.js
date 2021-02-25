@@ -26,6 +26,7 @@ function ourstory() {
             width={237}
             height={74}
             alt="storytitle"
+            quality={100}
           ></Image>
         </div>
         <div className="story-book">

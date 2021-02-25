@@ -12,8 +12,6 @@
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-id-swiper": "^4.0.0",
-    "react-indiana-drag-scroll": "^1.8.0",
-    "swiper": "^5.3.8"
+    "react-indiana-drag-scroll": "^1.8.0"
   }
 }
