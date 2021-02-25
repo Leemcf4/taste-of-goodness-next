@@ -11,7 +11,6 @@ function Clouds() {
           height={109}
           alt="cloud"
         ></Image>
-        {/* <img src="/images/cloud1.png" alt="" /> */}
       </div>
       <div className="cloud2">
         <Image
@@ -20,7 +19,6 @@ function Clouds() {
           height={116}
           alt="cloud"
         ></Image>
-        {/* <img src="/images/cloud2.png" alt="" /> */}
       </div>
       <div className="cloud3">
         <Image
@@ -29,7 +27,6 @@ function Clouds() {
           height={115}
           alt="cloud"
         ></Image>
-        {/* <img src="/images/cloud3.png" alt="" /> */}
       </div>
       <div className="cloud4">
         <Image
@@ -38,7 +35,6 @@ function Clouds() {
           height={139}
           alt="cloud"
         ></Image>
-        {/* <img src="/images/cloud4.png" alt="" /> */}
       </div>
     </div>
   )

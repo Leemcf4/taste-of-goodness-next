@@ -169,6 +169,7 @@ function ourfamily() {
         <Footer
           footerImageFront="/images/fields_front_4.png"
           footerImageBack="/images/fields_back_4.png"
+          bottom={"-5px"}
         />
       </div>
     </div>

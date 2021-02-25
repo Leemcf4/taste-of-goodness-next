@@ -33,6 +33,7 @@ function wheretofind() {
       <Footer
         footerImageFront="/images/fields_front_5.png"
         footerImageBack="/images/fields_back_5.png"
+        bottom={"-5px"}
       />
     </div>
   )

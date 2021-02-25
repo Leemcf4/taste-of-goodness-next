@@ -31,6 +31,7 @@ function callus() {
       <Footer
         footerImageFront="/images/fields_front_6.png"
         footerImageBack="/images/fields_back_6.png"
+        bottom={"-5px"}
       />
     </div>
   )

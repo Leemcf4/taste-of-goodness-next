@@ -11,7 +11,6 @@ function Awards() {
         alt="Awards"
         layout="intrinsic"
       ></Image>
-      {/* <img src="\images\Taste_Of_Goodness_Home_Footer.png" alt="" /> */}
     </div>
   )
 }

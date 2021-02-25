@@ -1016,7 +1016,7 @@ code {
 .family-bottom {
   display: flex;
   position: absolute;
-  bottom: -10%;
+  bottom: -30px;
   width: 100%;
   min-width: 50%;
 }
