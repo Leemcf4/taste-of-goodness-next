@@ -55,6 +55,7 @@ class MyDocument extends Document {
               "-webkit-linear-gradient(top, #90C1FC 0%, #A3D5FE 33%, #B0DEFD 66%, #C1E8FE 100%)",
             backgroundImage:
               " linear-gradient(to bottom, #90C1FC 0%, #A3D5FE 33%, #B0DEFD 66%, #C1E8FE 100%)",
+            maxWidth: "2410px",
           }}
         >
           <Main />

@@ -48,7 +48,13 @@ function ourstory() {
         <Footer
           footerImageFront="/images/fields_front_2.png"
           footerImageBack="/images/fields_back_2.png"
+          footerTabletFront="/images/footerTablet/fields_front_2_tablet.png"
+          footerTabletBack="/images/footerTablet/fields_back_2_tablet.png"
+          footerMobileFront="/images/footerMobile/fields_front2_mobile.png"
+          footerMobileBack="/images/footerMobile/fields_back2_mobile.png"
           bottom={"50px"}
+          mobileBottom={"-5px"}
+          tabletBottom={"-5px"}
         />
       </div>
     </div>

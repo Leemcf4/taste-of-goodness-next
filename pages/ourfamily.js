@@ -112,6 +112,7 @@ function ourfamily() {
                   width={134}
                   alt="bottle"
                   quality={100}
+                  layout="fixed"
                 ></Image>
               </div>
             ))}
@@ -120,7 +121,13 @@ function ourfamily() {
         <Footer
           footerImageFront="/images/fields_front_4.png"
           footerImageBack="/images/fields_back_4.png"
+          footerTabletFront="/images/footerTablet/fields_front_4_tablet.png"
+          footerTabletBack="/images/footerTablet/fields_back_4_tablet.png"
+          footerMobileFront="/images/footerMobile/fields_front4_mobile.png"
+          footerMobileBack="/images/footerMobile/fields_back4_mobile.png"
           bottom={"-5px"}
+          mobileBottom={"-5px"}
+          tabletBottom={"-5px"}
         />
       </div>
     </div>

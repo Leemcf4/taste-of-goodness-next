@@ -20,6 +20,11 @@ function MyApp({ Component, pageProps }) {
           "-webkit-linear-gradient(top, #90C1FC 0%, #A3D5FE 33%, #B0DEFD 66%, #C1E8FE 100%)",
         backgroundImage:
           " linear-gradient(to bottom, #90C1FC 0%, #A3D5FE 33%, #B0DEFD 66%, #C1E8FE 100%)",
+        maxWidth: "2410px",
+        marginLeft: "auto",
+        marginRight: "auto",
+        left: 0,
+        right: 0,
       }}
     >
       <Header />

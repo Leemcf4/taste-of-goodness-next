@@ -48,7 +48,13 @@ function whatsgood() {
       <Footer
         footerImageFront="/images/fields_front_3.png"
         footerImageBack="/images/fields_back_3.png"
+        footerTabletFront="/images/footerTablet/fields_front_3_tablet.png"
+        footerTabletBack="/images/footerTablet/fields_back_3_tablet.png"
+        footerMobileFront="/images/footerMobile/fields_front3_mobile.png"
+        footerMobileBack="/images/footerMobile/fields_back3_mobile.png"
         bottom={"-5px"}
+        mobileBottom={"-5px"}
+        tabletBottom={"-5px"}
       />
     </div>
   )

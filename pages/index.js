@@ -81,6 +81,12 @@ export default function Home() {
         <Footer
           footerImageFront="/images/fields_front_1.png"
           footerImageBack="/images/fields_back_1.png"
+          footerTabletFront="/images/footerTablet/fields_front_1_tablet.png"
+          footerTabletBack="/images/footerTablet/fields_back_1_tablet.png"
+          footerMobileFront="/images/footerMobile/fields_front1_mobile.png"
+          footerMobileBack="/images/footerMobile/fields_back1_mobile.png"
+          mobileBottom={"10px"}
+          tabletBottom={"35px"}
         />
       </div>
     </div>

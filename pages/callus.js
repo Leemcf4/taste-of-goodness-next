@@ -31,7 +31,13 @@ function callus() {
       <Footer
         footerImageFront="/images/fields_front_6.png"
         footerImageBack="/images/fields_back_6.png"
+        footerTabletFront="/images/footerTablet/fields_front_6_tablet.png"
+        footerTabletBack="/images/footerTablet/fields_back_6_tablet.png"
+        footerMobileFront="/images/footerMobile/fields_front6_mobile.png"
+        footerMobileBack="/images/footerMobile/fields_back6_mobile.png"
         bottom={"-5px"}
+        mobileBottom={"-5px"}
+        tabletBottom={"-5px"}
       />
     </div>
   )

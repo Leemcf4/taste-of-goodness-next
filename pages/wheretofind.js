@@ -33,7 +33,13 @@ function wheretofind() {
       <Footer
         footerImageFront="/images/fields_front_5.png"
         footerImageBack="/images/fields_back_5.png"
+        footerTabletFront="/images/footerTablet/fields_front_5_tablet.png"
+        footerTabletBack="/images/footerTablet/fields_back_5_tablet.png"
+        footerMobileFront="/images/footerMobile/fields_front5_mobile.png"
+        footerMobileBack="/images/footerMobile/fields_back5_mobile.png"
         bottom={"-5px"}
+        mobileBottom={"-5px"}
+        tabletBottom={"-5px"}
       />
     </div>
   )
