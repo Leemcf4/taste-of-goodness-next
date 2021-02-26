@@ -1,5 +1,7 @@
 import Head from "next/head"
+import Image from "next/image"
 import React from "react"
+import Balloons from "../components/Balloons"
 import Footer from "../components/Footer"
 
 const title = "Taste of Goodness"
@@ -18,32 +20,39 @@ function whatsgood() {
         <meta property="twitter:title" content={title} />
       </Head>
       <div className="whats-good-title">
-        <img src="/images/good_title.png" alt="" />
+        <Image
+          src="/images/good_title.png"
+          alt="good-title"
+          width={237}
+          height={74}
+        ></Image>
       </div>
 
       <div className="cloud-container-left" id="whatsgood-left">
-        <img src="/images/good_cloud1.png" alt="" />
+        <Image
+          src="/images/good_cloud1.png"
+          alt="cloud"
+          width={278}
+          height={498}
+        ></Image>
       </div>
       <div className="cloud-container-right" id="whatsgood-right">
-        <img src="/images/good_cloud2.png" alt="" />
+        <Image
+          src="/images/good_cloud2.png"
+          alt="cloud"
+          width={279}
+          height={499}
+        ></Image>
       </div>
+      <Balloons />
 
-      <div className="balloon-container">
-        <div className="balloon-1">
-          <img src="/images/balloon_lactose.png" alt="" />
-        </div>
-        <div className="balloon-2">
-          <img src="/images/balloon_gluten.png" alt="" />
-        </div>
-        <div className="balloon-3">
-          <img src="/images/balloon_shellfish.png" alt="" />
-        </div>
-        <div className="balloon-4">
-          <img src="/images/balloon_suitable.png" alt="" />
-        </div>
-      </div>
       <div className="sign-container">
-        <img src="/images/good_sign.png" alt="" />
+        <Image
+          src="/images/good_sign.png"
+          alt="sign"
+          width={281}
+          height={412}
+        ></Image>
       </div>
       <Footer
         footerImageFront="/images/fields_front_3.png"

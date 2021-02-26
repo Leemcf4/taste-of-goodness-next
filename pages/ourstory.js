@@ -43,6 +43,7 @@ function ourstory() {
             width={261}
             height={467}
             alt="cloud"
+            quality={100}
           ></Image>
         </div>
         <Footer

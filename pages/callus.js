@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 import React from "react"
 import Footer from "../components/Footer"
 
@@ -18,15 +19,31 @@ function callus() {
         <meta property="twitter:title" content={title} />
       </Head>
       <div className="call-title">
-        <img src="/images/callme_title.png" alt="" />
+        <Image
+          src="/images/callme_title.png"
+          alt="call-title"
+          width={239}
+          height={86}
+          quality={100}
+        ></Image>
       </div>
 
       <div className="call-text-left">
-        <img src="/images/callus_textboard1.png" alt="" />
+        <Image
+          src="/images/callus_textboard1.png"
+          alt="call-text-1"
+          width={508}
+          height={375}
+        ></Image>
       </div>
 
       <div className="call-text-right">
-        <img src="/images/callus_textboard2.png" alt="" />
+        <Image
+          src="/images/callus_textboard2.png"
+          alt="call-text-2"
+          width={257}
+          height={497}
+        ></Image>
       </div>
       <Footer
         footerImageFront="/images/fields_front_6.png"
