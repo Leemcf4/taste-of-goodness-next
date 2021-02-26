@@ -15,7 +15,7 @@ class MyDocument extends Document {
         <Head>
           <link rel="icon" href="/images/reddit-logo.png" />
           <meta property="og:site_name" content="Taste of Goodness" />
-          <meta name="description " content={description} />
+          <meta name="description" content={description} />
           <meta property="og:description" content={description} />
           <meta property="twitter:site" content="@Taste_Goodness" />
           <meta property="twitter:card" content="summary" />
