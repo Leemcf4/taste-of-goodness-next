@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function Header() {
   return (
-    <div className="header-container">
+    <header className="header-container">
       <div className="nav-items">
         <Link href="/">
           <a className="nav-item">HELLO!</a>
@@ -38,7 +38,7 @@ function Header() {
           </a>
         </Link>
       </div>
-    </div>
+    </header>
   )
 }
 
