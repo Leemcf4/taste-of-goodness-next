@@ -11,7 +11,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <link rel="icon" href="/images/reddit-logo.png" />
           <meta property="og:site_name" content="Taste of Goodness" />
@@ -24,6 +24,7 @@ class MyDocument extends Document {
             property="og:image"
             content={process.env.NEXT_PUBLIC_SERVER_BASE_URL}
           />
+
           <meta
             property="twitter:image"
             content={process.env.NEXT_PUBLIC_SERVER_BASE_URL}
