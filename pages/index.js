@@ -85,7 +85,7 @@ export default function Home() {
           footerTabletBack="/images/footerTablet/fields_back_1_tablet.png"
           footerMobileFront="/images/footerMobile/fields_front1_mobile.png"
           footerMobileBack="/images/footerMobile/fields_back1_mobile.png"
-          mobileBottom={"10px"}
+          mobileBottom={"30px"}
           tabletBottom={"35px"}
         />
       </div>

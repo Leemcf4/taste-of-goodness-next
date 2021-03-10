@@ -106,7 +106,7 @@ function Footer({
               alt="footer"
             ></Image>
           </div>
-
+          {/* 
           <div className="hills-back">
             <Image
               src="/images/footerMobile/hills_mobile.png"
@@ -115,7 +115,7 @@ function Footer({
               priority
               alt="hills"
             ></Image>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
